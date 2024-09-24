@@ -6,6 +6,8 @@ This repository contains tutorials on Quantum Machine Learning. The tutorials ar
 - [Quantum Machine Learning Tutorials ](#quantum-machine-learning-tutorials-)
   - [Folder Structure:](#folder-structure)
   - [Colab Links:](#colab-links)
+- [Training Performance:](#training-performance)
+  - [Explicit Model:](#explicit-model)
 
 
 ## Folder Structure:
@@ -28,3 +30,17 @@ The notebooks can be run on Google Colab by clicking on the following links:
 | [`ImplicitModel.ipynb`](ImplicitModel.ipynb)       | <a target="_blank" style="display: inline" href="https://colab.research.google.com/github/vinayak19th/QML-Tutorials/blob/master/ImplicitModel.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>    |
 | [`Data_Reuploading.ipynb`](Data_Reuploading.ipynb) | <a target="_blank" style="display: inline" href="https://colab.research.google.com/github/vinayak19th/QML-Tutorials/blob/master/Data_Reuploading.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/> |
 | [`DataGenerator.ipynb`](DataGenerator.ipynb)       | <a target="_blank" style="display: inline" href="https://colab.research.google.com/github/vinayak19th/QML-Tutorials/blob/master/DataGenerator.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>    |
+
+# Training Performance:
+
+## Explicit Model:
+![Explicit Model](Media/ExplicitModel_labelled.png)
+
+<table>
+<tr>
+  <td> <img src="Media/Explicit_3L_3R.gif" alt="Explicit Model" style="width: 90%;"/> </td>
+  <td>  
+    Training Loss is good
+  </tr>
+</table>
+
