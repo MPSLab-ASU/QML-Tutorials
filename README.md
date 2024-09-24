@@ -34,13 +34,17 @@ The notebooks can be run on Google Colab by clicking on the following links:
 # Training Performance:
 
 ## Explicit Model:
-![Explicit Model](Media/ExplicitModel_labelled.png)
+![Explicit Model](Media/ExplicitModel_labelled_white.png)
 
 <table>
 <tr>
+  <th>Performance Over Time</th>
+  <th>Observations</th>
+</tr>
+<tr>
   <td> <img src="Media/Explicit_3L_3R.gif" alt="Explicit Model" style="width: 90%;"/> </td>
   <td>  
-    Training Loss is good
+    The data starts matching the target distribution within 6 epochs
   </tr>
 </table>
 
