@@ -1,9 +1,8 @@
-# Quantum Machine Learning Tutorials [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/vinayak19th/QML-Tutorials/master?labpath=Explicit%2520Model.ipynb)
-
+# Quantum Machine Learning Tutorials 
 This repository contains tutorials on Quantum Machine Learning. The tutorials are written in Jupyter Notebooks and are intended to be run on Google Colab. 
 
 **Table of Contents**
-- [Quantum Machine Learning Tutorials ](#quantum-machine-learning-tutorials-)
+- [Quantum Machine Learning Tutorials](#quantum-machine-learning-tutorials)
   - [Folder Structure:](#folder-structure)
   - [Colab Links:](#colab-links)
 - [Training Performance:](#training-performance)
