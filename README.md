@@ -1,10 +1,11 @@
 # Quantum Machine Learning Tutorials [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/vinayak19th/QML-Tutorials/master?labpath=Explicit%2520Model.ipynb)
 
-This repository contains tutorials on Quantum Machine Learning. The tutorials are written in Jupyter Notebooks and are intended to be run on Google Colab or Binder. 
+This repository contains tutorials on Quantum Machine Learning. The tutorials are written in Jupyter Notebooks and are intended to be run on Google Colab. 
 
 **Table of Contents**
 - [Quantum Machine Learning Tutorials ](#quantum-machine-learning-tutorials-)
   - [Folder Structure:](#folder-structure)
+  - [Colab Links:](#colab-links)
 
 
 ## Folder Structure:
@@ -14,8 +15,16 @@ The folder structure for demos follows the following pattern:
 *  **Notebooks**:
    *  [`ExplicitModel.ipynb`](ExplicitModel.ipynb) : This notebook contains the implementation of the explicit model for the XOR gate.
    *  [`ImplicitModel.ipynb`](ImplicitModel.ipynb) : This notebook contains the implementation of the implicit model for the XOR gate.
-   *  [`Data_Reuploading.ipynb`](Quantum%20Neural%20Network.ipynb) : This notebook contains the implementation of the Quantum Neural Network for the XOR gate.
-   *   
+   *  [`Data_Reuploading.ipynb`](Data_Reuploading.ipynb) : This notebook contains the implementation of the Quantum Neural Network for the XOR gate.
+   *  [`DataGenerator.ipynb`](DataGenerator.ipynb) : This notebook creates a random quantum circuit from which we sample to create our dataset.
+* [`Media/`](Media/) : Contains the images from training. 
 
+## Colab Links:
+The notebooks can be run on Google Colab by clicking on the following links:
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/vinayak19th/QML-Tutorials/master?labpath=Explicit%2520Model.ipynb)
+| **Notebook**                                       | **Colab**                                                                                                                                                                                                                                         |
+| -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`ExplicitModel.ipynb`](ExplicitModel.ipynb)       | <a target="_blank" style="display: inline" href="https://colab.research.google.com/github/vinayak19th/QML-Tutorials/blob/master/ExplicitModel.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>    |
+| [`ImplicitModel.ipynb`](ImplicitModel.ipynb)       | <a target="_blank" style="display: inline" href="https://colab.research.google.com/github/vinayak19th/QML-Tutorials/blob/master/ImplicitModel.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>    |
+| [`Data_Reuploading.ipynb`](Data_Reuploading.ipynb) | <a target="_blank" style="display: inline" href="https://colab.research.google.com/github/vinayak19th/QML-Tutorials/blob/master/Data_Reuploading.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/> |
+| [`DataGenerator.ipynb`](DataGenerator.ipynb)       | <a target="_blank" style="display: inline" href="https://colab.research.google.com/github/vinayak19th/QML-Tutorials/blob/master/DataGenerator.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>    |
