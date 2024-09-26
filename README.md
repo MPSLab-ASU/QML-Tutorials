@@ -75,9 +75,9 @@ The notebooks can be run on Google Colab by clicking on the following links:
   <th>Observations</th>
 </tr>
 <tr>
-  <td> <img src="Media/RawVideo/Explicit_3L_3R.gif" alt="Explicit Model" style="width: 90%;"/> </td>
+  <td> <img src="Media/RawVideo/Implicit_3L_3R.gif" alt="Implicit Model" style="width: 90%;"/> </td>
   <td>  
-    The data starts matching the target distribution within 4 epochs
+    The model is very sampling sensitive and the training can take random steps
     </td>
   </tr>
 </table>
