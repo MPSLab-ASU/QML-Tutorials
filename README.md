@@ -16,10 +16,10 @@ The folder structure for demos follows the following pattern:
 * [`logs/`](logs/) : Contains the logs from [tensorboard](https://www.tensorflow.org/tensorboard).
 *  [`Saved_vars/`](Saved_vars/) : Contains the saved data sets to train the models on
 *  **Notebooks**:
+*  *  [`DataGenerator.ipynb`](DataGenerator.ipynb) : This notebook creates a random quantum circuit from which we sample to create our dataset.
    *  [`ExplicitModel.ipynb`](ExplicitModel.ipynb) : This notebook contains the implementation of the explicit model for the XOR gate.
    *  [`ImplicitModel.ipynb`](ImplicitModel.ipynb) : This notebook contains the implementation of the implicit model for the XOR gate.
    *  [`Data_Reuploading.ipynb`](Data_Reuploading.ipynb) : This notebook contains the implementation of the Quantum Neural Network for the XOR gate.
-   *  [`DataGenerator.ipynb`](DataGenerator.ipynb) : This notebook creates a random quantum circuit from which we sample to create our dataset.
 * [`Media/`](Media/) : Contains the images from training. 
 
 ## Colab Links:
