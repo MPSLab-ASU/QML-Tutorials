@@ -7,6 +7,8 @@ This repository contains tutorials on Quantum Machine Learning. The tutorials ar
   - [Colab Links:](#colab-links)
 - [Training Performance:](#training-performance)
   - [Explicit Model:](#explicit-model)
+  - [Data Reuploading Model:](#data-reuploading-model)
+  - [Implicit Model:](#implicit-model)
 
 
 ## Folder Structure:
@@ -33,7 +35,7 @@ The notebooks can be run on Google Colab by clicking on the following links:
 # Training Performance:
 
 ## Explicit Model:
-![Explicit Model](Media/ExplicitModel_labelled_white.png)
+![Explicit Model](Media/ModelArchs/ExplicitModel_labelled_white.png)
 
 <table>
 <tr>
@@ -41,9 +43,42 @@ The notebooks can be run on Google Colab by clicking on the following links:
   <th>Observations</th>
 </tr>
 <tr>
-  <td> <img src="Media/Explicit_3L_3R.gif" alt="Explicit Model" style="width: 90%;"/> </td>
+  <td> <img src="Media/RawVideo/Explicit_3L_3R.gif" alt="Explicit Model" style="width: 90%;"/> </td>
   <td>  
     The data starts matching the target distribution within 6 epochs
+    </td>
+  </tr>
+</table>
+
+## Data Reuploading Model:
+![Data Reuploading Model](Media/ModelArchs/DRModel_lableled_white.png)
+
+<table>
+<tr>
+  <th>Performance Over Time</th>
+  <th>Observations</th>
+</tr>
+<tr>
+  <td> <img src="Media/RawVideo/DR_3L_3R.gif" alt="DR Model" style="width: 90%;"/> </td>
+  <td>  
+    The data starts matching the target distribution within 6 epochs
+    </td>
+  </tr>
+</table>
+
+## Implicit Model:
+![Implicit Model](Media/ModelArchs/ImplicitModel_labelled_white.png)
+
+<table>
+<tr>
+  <th>Performance Over Time</th>
+  <th>Observations</th>
+</tr>
+<tr>
+  <td> <img src="Media/RawVideo/Explicit_3L_3R.gif" alt="Explicit Model" style="width: 90%;"/> </td>
+  <td>  
+    The data starts matching the target distribution within 4 epochs
+    </td>
   </tr>
 </table>
 
