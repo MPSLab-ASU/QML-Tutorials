@@ -6,11 +6,11 @@ dev = qml.device("default.qubit",wires=1)
 
 def output_and_draw(gates):
     print(f"Output of the circuit {circuit(gates)}")
-    qml.draw_mpl(circuit)(gates)
+    qml.draw_mpl(circuit,decimals=2)(gates)
     plt.show()
 
 def draw_and_get_state(gates):
-    qml.draw_mpl(probelm_circuit)(gates)
+    qml.draw_mpl(probelm_circuit,decimals=2)(gates)
     state = probelm_circuit(gates)
     print(f"State created: \n {state}")
     plt.show()
@@ -36,7 +36,7 @@ def circuit_ops(ops):
 
 def apply_ops_and_draw(ops):
     print(f"State Created by Decomposition:\n {circuit_ops(ops)}")
-    qml.draw_mpl(circuit_ops)(ops)
+    qml.draw_mpl(circuit_ops,decimals=2)(ops)
     plt.show()
 
 def decompose_and_plot(gate):
@@ -44,3 +44,4 @@ def decompose_and_plot(gate):
     draw_and_get_state([gate])
     print(f"Decomposition:\n {gate_wire.decomposition()}")
     apply_ops_and_draw(gate_wire.decomposition())
+
