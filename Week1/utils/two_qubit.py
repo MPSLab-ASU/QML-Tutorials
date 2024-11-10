@@ -4,7 +4,6 @@ import numpy as np
 
 dev = qml.device("default.qubit",wires=2)
 
-
 def draw_and_get_state(gates):
     """2 qubit function to draw and get states.
         gates [list] : instantiated gates with the wires defined eg. qml.CNOT([0,1])

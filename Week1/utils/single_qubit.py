@@ -12,7 +12,8 @@ def output_and_draw(gates):
 def draw_and_get_state(gates):
     qml.draw_mpl(probelm_circuit,decimals=2)(gates)
     state = probelm_circuit(gates)
-    print(f"State created: \n {state}")
+    states_formatted = ['{:.2f}'.format(i) for i in state]
+    print(f"State created: \n {states_formatted}")
     plt.show()
 
 @qml.qnode(dev,grad_on_execution=False,diff_method=None)
@@ -35,7 +36,8 @@ def circuit_ops(ops):
     return qml.state()
 
 def apply_ops_and_draw(ops):
-    print(f"State Created by Decomposition:\n {circuit_ops(ops)}")
+    states_formatted = ['{:.2f}'.format(i) for i in circuit_ops(ops)]
+    print(f"State Created by Decomposition:\n {states_formatted}")
     qml.draw_mpl(circuit_ops,decimals=2)(ops)
     plt.show()
 
